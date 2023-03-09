@@ -1,0 +1,66 @@
+<div class="sidebar">
+     <!--
+Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red"
+-->
+     <div class="sidebar-wrapper">
+          <div class="logo">
+              
+               <a href="{% url 'home' %}" class="simple-text logo-mini"> </a>
+              
+               <a href="{% url 'home' %}" class="simple-text logo-normal">
+                    UniPay
+               </a>
+          </div>
+          <ul class="nav">
+               <li class="active"><a class="active" href="{% url 'dashboard' %}"
+                         >
+                         <i class="tim-icons icon-chart-pie-36"></i>
+                         <p>Dashboard</p>
+                    </a>
+               </li>
+               <li>
+                    <a href="{% url 'fundwallet' %}">
+                         <i class="tim-icons icon-wallet-43"></i>
+                         <p>Fund Wallet</p>
+                    </a>
+               </li>
+               <li>
+                    <a href="{% url 'sendmoney' %}">
+                         <i class="tim-icons icon-money-coins"></i>
+                         <p>Transfer/Withdrawal</p>
+                    </a>
+               </li>
+               <li>
+                    <a href="{% url 'transactions' %}">
+                         <i class="tim-icons icon-chart-bar-32"></i>
+                         <p>Transactions</p>
+                    </a>
+               </li>
+               <li>
+                    <a href="{% url 'profile' request.user.id  %}"">
+                         <i class="tim-icons icon-single-02"></i>
+                         <p>User Profile</p>
+                    </a>
+               </li>
+               <li>
+                    <a href="{% url 'fundwallet' %}">
+                         <i class="tim-icons icon-spaceship"></i>
+                         <p>Knowledge</p>
+                    </a>
+               </li>
+
+               <li>
+                    <a href="./rtl.html">
+                         <i class="tim-icons icon-world"></i>
+                         <p>Support</p>
+                    </a>
+               </li>
+               <li class="active-pro">
+                    <a href="./upgrade.html">
+                         <i class="tim-icons icon-lock-circle"></i>
+                         <p>Log out</p>
+                    </a>
+               </li>
+          </ul>
+     </div>
+</div>

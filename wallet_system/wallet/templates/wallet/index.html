@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+		<title>Moderna Bootstrap Template - Index 2 without slider</title>
+		<meta content="" name="description" />
+		<meta content="" name="keywords" />
+
+		<!-- Favicons -->
+		<link href="{% static 'images/favicon.png' %}" rel="icon" />
+		<link
+			href="{% static 'images/apple-touch-icon.png' %}"
+			rel="apple-touch-icon" />
+
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
+			rel="stylesheet" />
+
+		<!-- Vendor CSS Files -->
+		<link
+			href="{% static 'styles/animate.css/animate.min.css' %}"
+			rel="stylesheet" />
+		<link href="{% static 'styles/aos/aos.css' %}" rel="stylesheet" />
+		<link
+			href="{% static 'styles/bootstrap/css/bootstrap.min.css' %}"
+			rel="stylesheet" />
+		<link
+			href="{% static 'styles/bootstrap-icons/bootstrap-icons.css' %}"
+			rel="stylesheet" />
+		<link
+			href="{% static 'styles/boxicons/css/boxicons.min.css' %}"
+			rel="stylesheet" />
+		<link
+			href="{% static 'styles/glightbox/css/glightbox.min.css' %}"
+			rel="stylesheet" />
+		<link
+			href="{% static 'styles/swiper/swiper-bundle.min.css' %}"
+			rel="stylesheet" />
+
+		<!-- Template Main CSS File -->
+		<link href="{% static 'styles/style2.css' %}" rel="stylesheet" />
+
+		<!-- =======================================================
+  * Template Name: Moderna - v4.11.0
+  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+	</head>
+
+	<body>
+		<!-- ======= Header ======= -->
+		<header
+			id="header"
+			class="fixed-top d-flex align-items-center header-transparent">
+			<div class="container d-flex justify-content-between align-items-center">
+				<div class="logo">
+					<h1 class="text-light">
+						<a href="index.html"><span>UniPay</span></a>
+					</h1>
+					<!-- Uncomment below if you prefer to use an image logo -->
+					<!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+				</div>
+
+				{% include 'wallet/lpnavbar.html' %}
+
+				<!-- .navbar -->
+			</div>
+		</header>
+		<!-- End Header -->
+
+		<!-- ======= Hero No Slider Section ======= -->
+		<section
+			id="hero-no-slider"
+			class="d-flex justify-cntent-center align-items-center">
+			<div
+				class="container position-relative"
+				data-aos="fade-up"
+				data-aos-delay="100">
+				<div class="row justify-content-center">
+					<div class="col-xl-8">
+						<h2>Welcome to UniPay</h2>
+						<p>
+							Experience financial freedom with UniPay. Say goodbye to the
+							uncertainty of traditional banking and simplify your life with our
+							secure platform. Join UniPay today and focus on what truly
+							matters.
+						</p>
+						<a href="" class="btn-get-started">Read More</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Hero No Slider Sectio -->
+
+		<main id="main">
+			<!-- ======= Services Section ======= -->
+			<section class="services">
+				<div class="container">
+					<div class="row">
+						<div
+							class="col-md-6 col-lg-3 d-flex align-items-stretch"
+							data-aos="fade-up">
+							<div class="icon-box icon-box-pink">
+								<div class="icon"><i class="bx bx-credit-card"></i></div>
+								<h4 class="title"><a href="">Easy Transactions</a></h4>
+								<p class="description">
+									Make transactions with ease and security, hassle-free.
+								</p>
+							</div>
+						</div>
+
+						<div
+							class="col-md-6 col-lg-3 d-flex align-items-stretch"
+							data-aos="fade-up"
+							data-aos-delay="100">
+							<div class="icon-box icon-box-cyan">
+								<div class="icon"><i class="bx bx-wallet"></i></div>
+								<h4 class="title"><a href="">Secure Wallet</a></h4>
+								<p class="description">
+									Your funds are safe with us. Our wallet has multiple layers of
+									security to protect your assets.
+								</p>
+							</div>
+						</div>
+
+						<div
+							class="col-md-6 col-lg-3 d-flex align-items-stretch"
+							data-aos="fade-up"
+							data-aos-delay="200">
+							<div class="icon-box icon-box-green">
+								<div class="icon"><i class="bx bx-money"></i></div>
+								<h4 class="title"><a href="">Multi-Currency Support</a></h4>
+								<p class="description">
+									Our wallet supports multiple currencies, making it easy for
+									you to manage your assets.
+								</p>
+							</div>
+						</div>
+
+						<div
+							class="col-md-6 col-lg-3 d-flex align-items-stretch"
+							data-aos="fade-up"
+							data-aos-delay="200">
+							<div class="icon-box icon-box-blue">
+								<div class="icon"><i class="bx bx-support"></i></div>
+								<h4 class="title"><a href="">24/7 Support</a></h4>
+								<p class="description">
+									Our support team is available 24/7 to assist you with any
+									issues or questions you may have.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Services Section -->
+
+			<!-- ======= Why Us Sectionv
+								Exceptional customer support, Our team of experts is always here
+								to help you with any questions or issues you may have. We pride
+								ourselves on providing exceptional customer support. ======= -->
+			<section
+				class="why-us section-bg"
+				data-aos="fade-up"
+				date-aos-delay="200">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 video-box">
+							<img
+								src="{% static 'images/why-us.jpg' %}"
+								class="img-fluid"
+								alt="" />
+						</div>
+
+						<div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+							<div class="icon-box">
+								<div class="icon"><i class="bi bi-shield-lock"></i></div>
+								<h4 class="title"><a href="">Transparent Transactions</a></h4>
+								<p class="description">
+									We value transparency, which is why we ensure all transactions
+									are visible and traceable.
+								</p>
+							</div>
+
+							<div class="icon-box">
+								<div class="icon"><i class="bi bi-clock"></i></div>
+								<h4 class="title"><a href="">Fast and Reliable</a></h4>
+								<p class="description">
+									Our wallet platform is designed to process transactions
+									quickly and efficiently, so you can enjoy a seamless and
+									hassle-free experience.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Why Us Section -->
+
+			<!-- ======= Features Section ======= -->
+			<section class="features">
+				<div class="container">
+					<div class="section-title">
+						<h2>Features</h2>
+						<p>
+							Our webapp wallet is packed with features that cater to your
+							financial needs. From security to convenience, we've got you
+							covered.
+						</p>
+					</div>
+
+					<div class="row" data-aos="fade-up">
+						<div class="col-md-5">
+							<img
+								src="{% static 'images/features-1.svg' %}"
+								class="img-fluid"
+								alt="" />
+						</div>
+						<div class="col-md-7 pt-4">
+							<h3>Secure and Transparent Transactions</h3>
+							<p class="fst-italic">
+								Our wallet ensures that your transactions are secure and
+								transparent, providing you with peace of mind and confidence in
+								every transaction you make.
+							</p>
+							<ul>
+								<li><i class="bi bi-check"></i> Two-factor authentication</li>
+								<li>
+									<i class="bi bi-check"></i> Real-time transaction monitoring
+								</li>
+								<li>
+									<i class="bi bi-check"></i> Comprehensive transaction history
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="row" data-aos="fade-up">
+						<div class="col-md-5 order-1 order-md-2">
+							<img
+								src="{% static 'images/features-2.svg' %}"
+								class="img-fluid"
+								alt="" />
+						</div>
+						<div class="col-md-7 pt-5 order-2 order-md-1">
+							<h3>User-Friendly Interface</h3>
+							<p class="fst-italic">
+								Our platform is designed with simplicity and ease-of-use in
+								mind, allowing you to manage your finances with minimal effort
+								and maximum convenience.
+							</p>
+							<p>
+								Discover the key features of our platform that will help you
+								take control of your finances.
+							</p>
+						</div>
+					</div>
+
+					<div class="row" data-aos="fade-up">
+						<div class="col-md-5">
+							<img
+								src="{% static 'images/features-3.svg' %}"
+								class="img-fluid"
+								alt="" />
+						</div>
+						<div class="col-md-7 pt-5">
+							<h3>Manage your finances on-the-go</h3>
+							<p>
+								With our mobile app, you can access your wallet and manage your
+								finances from anywhere, at any time.
+							</p>
+							<ul>
+								<li>
+									<i class="bi bi-check"></i> Our platform is designed with
+									simplicity and ease-of-use in mind, allowing you to quickly
+									and easily perform transactions, view your balances and
+									transaction history, and monitor your account activity.
+								</li>
+								<li>
+									<i class="bi bi-check"></i> Duis aute irure dolor in
+									reprehenderit in voluptate velit.
+								</li>
+								<li>
+									<i class="bi bi-check"></i> Facilis ut et voluptatem aperiam.
+									Autem soluta ad fugiat.
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="row" data-aos="fade-up">
+						<div class="col-md-5 order-1 order-md-2">
+							<img
+								src="{% static 'images/features-4.svg' %}"
+								class="img-fluid"
+								alt="" />
+						</div>
+						<div class="col-md-7 pt-5 order-2 order-md-1">
+							<h3>Secure and reliable transactions</h3>
+							<p class="fst-italic">
+								We take security seriously and use the latest technology to
+								ensure your transactions are safe and secure.
+							</p>
+							<p>
+								Our platform uses two-factor authentication, encryption, and
+								other security measures to protect your account and transactions
+								from unauthorized access and fraud. You can trust us to keep
+								your funds and personal information secure.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Features Section -->
+		</main>
+		<!-- End #main -->
+
+		<!-- ======= Footer ======= -->
+
+		{% include 'wallet/footer.html' %}
+		<!-- End Footer -->
+
+		<a
+			href="#"
+			class="back-to-top d-flex align-items-center justify-content-center"
+			><i class="bi bi-arrow-up-short"></i
+		></a>
+
+		<!-- Vendor JS Files -->
+		<script src="{% static 'js/purecounter_vanilla.js' %}"></script>
+		<script src="{% static 'js/aos.js' %}"></script>
+		<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+		<script src="{% static 'js/glightbox.min.js' %}"></script>
+		<script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+		<script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+		<script src="{% static 'js/noframework.waypoints.js' %}"></script>
+		<script src="{% static 'js/validate.js' %}"></script>
+
+		<!-- Template Main JS File -->
+		<script src="{% static 'js/main.js' %}"></script>
+	</body>
+</html>

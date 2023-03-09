@@ -1,0 +1,20 @@
+<nav id="navbar" class="navbar">
+	<ul>
+		<li><a class="active" href="{% url 'home' %}">Home</a></li>
+		<li><a href="{% url 'about' %}">About</a></li>
+		{% if request.user.is_authenticated %}
+
+		<li><a href="{% url 'logout' %}">Logout</a></li>
+
+		<li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+		{% else %}
+
+		<li><a href="{% url 'login' %}">Login</a></li>
+
+		<li><a href="{% url 'register' %}">Register</a></li>
+		{% endif %}
+
+		<li><a href="{% url 'home' %}">Contact Us</a></li>
+	</ul>
+	<i class="bi bi-list mobile-nav-toggle"></i>
+</nav>
